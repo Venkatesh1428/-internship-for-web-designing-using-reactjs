@@ -1,0 +1,13 @@
+{
+	"profile":{
+	"basics":{
+		"name":"Venkatesh",
+		"job": "Studying",
+		"Age":"20",
+		"Stream":"CSE"
+	},
+	"details":{
+
+	}
+}
+}

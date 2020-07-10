@@ -1,0 +1,56 @@
+.main
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.child{
+	width: 20rem;
+	border : 1px solid #000;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 10%;
+}
+
+.details{
+	display: flex;
+	
+}
+
+.child img
+{
+	width: 100%;
+}
+
+.details img
+{
+   width: 30%;
+}
+
+.contact{
+	width: 50px;
+	text-align: right;
+}
+
+
+.phone{
+	width: 50px;
+	text-align: right;
+}
+
+.github{
+	width: 50px;
+	text-align: right;
+}
+
+@media only screen and(min-width: 360px) and(max-width: 600px)
+.child{
+	width: 90%;
+	border : 1px solid #000;
+	padding: 5%;
+	margin: 3%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 20%;
+}
