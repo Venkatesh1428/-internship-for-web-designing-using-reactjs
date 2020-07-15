@@ -31,6 +31,7 @@ h1
 .main1{
 	width: 75%;
 	margin-top: 8%;
+	font-size: 13px;
 }
 .superior
 {
@@ -48,12 +49,16 @@ h1
 	.main
 	{
 		width: auto;
+		font-size: 15px;
 		margin-left: 100%;
 		margin-top: 35%;
+		height: 400px;
 
 	}
 	.main1{
 		margin-top: 25%;
+		font-size: 10px;
+
 	}
 	
 }
@@ -74,47 +79,6 @@ h1
 	}
 	h1{
 		font-size: 10px;
-	}
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1024px)
-{
-	.main
-	{
-		font-size: 7px;
-		height: 200px;
-	}
-	.main1
-	{
-		font-size: 6px;
-		height: 100px;
-		width: auto;
-		margin-right: 5%;
-	}
-	h1
-	{
-		font-size: 15px;
-	}
-}
-
-@media only screen and (min-width:1024px )
-{
-	.main
-	{
-		margin-bottom: 2%;
-		font-size: 4px;
-		height: 150px;
-	}
-	.main1
-	{
-		padding: 1%;
-		font-size: 5px;
-		height: 100px;
-		margin-right: 10%;
-	}
-	h1{
-		font-size: 15px;
 	}
 	}
 }
