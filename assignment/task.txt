@@ -4,7 +4,7 @@
 <head>
 	<title>:: Index Page ::</title>
 	<link rel="stylesheet" type="text/css" href="css/resume css.css">
-  <link rel="icon" type="favicon" href="image/title.svg">
+        <link rel="icon" type="favicon" href="image/title.svg">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<style>
 table, th, td {

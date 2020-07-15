@@ -6,3 +6,53 @@ header{
 *{
 	font-family: arial;
 }
+.parent{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+
+}
+.child_one{
+	width: 25%;
+	border: 1px solid #ddd;
+	padding: 1%:
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	margin: 1%:;
+}
+.child_two{
+	width: 65%;
+	border: 1px solid #ddd;
+	padding: 1%:
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	margin: 1%:;
+}
+.link{
+	text-decoration: none;
+	word-wrap: break-word;
+	display: block;
+}
+.role{
+	color: #d6d4d2;
+	font-style: italic;
+	}
+	/*RESPONSIVE NESS FOR SMALL SCREENS*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.child_one,
+	.child_two{
+		width: 95%;
+		background-color: #edf0f5;
+		font-size: 25px;
+
+	}
+}
+@media only screen and (min-width:481px )and (max-width:768px ){
+	.child_one,
+	.child_two{
+		width: 45%%;
+		background-color: #edf0f5;
+		font-size: 20px;
+
+	}
+}
